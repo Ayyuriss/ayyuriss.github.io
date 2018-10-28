@@ -13,14 +13,14 @@ include profile-pic.html
 img="/files/photo.jpg"
 %}
 <br>
-I'm currently Master student in Machine Learning in ENS Cachan. I've graduated from Ecole Polytechnique with a degree in Computational Mathematics with a minor in Machine Learning.
+I'm currently a Master student in Machine Learning in ENS Cachan. I've graduated from Ecole Polytechnique with a degree in Computational Mathematics with a minor in Machine Learning.
 My interests mainly lie within applied artificial intelligence and machine learning; at the moment, I'm working on **deep and hierarchical reinforcement learning** as an intern in RIKEN AIP Labs, Tokyo.
 <br>
 <br>
 
 ## CV
 * **Download**
-    * [[PDF](/files/CV.pdf)][[Template code]{{ site.githublink }}/LateXcv)]
+    * [[PDF](/files/CV.pdf)][[Template code]({{ site.githublink }}/LateXcv)]
 
 ## Projects
 

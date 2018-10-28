@@ -55,8 +55,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -153,7 +151,9 @@ a {
     }
 }
 
-
+.postLink{
+   font-size: 30px;
+}
 
 /**
  * Blockquotes
@@ -261,7 +261,7 @@ pre {
   padding: 10px;
 }
 .authorKeyword {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 16px;
   letter-spacing: 2px;
   text-indent: 2px;
@@ -280,6 +280,9 @@ pre {
 }
 .archiveIntro {
   text-align: center;
+}
+.indented {
+  text-indent: 25px;
 }
 .hint {
   text-transform: uppercase;
@@ -419,7 +422,7 @@ pre {
  * Site footer
  */
 .foot-label {
-  color : black;
+  color : yellow;
 }
 .site-footer {
   border-top: 1px solid;
@@ -514,8 +517,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
-
+  font-size: 40px;
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
@@ -598,7 +600,7 @@ pre {
 }
 
 .profile-pic {
-    margin: 0px 40px 0px 0px;
+    margin: 0px 8px 0px 0px;
     float: left;
 }
 

@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Deep RL"
-date:   2016-03-30 19:45:31 +0530
+title:  "Ant Colony"
+date:   2016-01-01
 categories: posts
 author: "Ayoub"
+tag : "Building"
+description: "Basic Ant Colony algorithm"
 ---
 
 In this post I'll present a basic Ant Colony Algorithm allowing the visualization of the ants behavior. It is far from being final but it can be easily tweaked and modified. The best part: it uses PyGame to visualize the ants moving scattering the pheromone. The code can be found on the <a href="https://github.com/ayourriss/AntColony"><span style="font-size: 14pt;"><strong><span style="font-size: 12pt;"><span style="font-size: 10pt;"><span style="color: #0000ff;">Github repository</span>.</span></span></strong></span></a> If you encounter any problems with the code, please rise an issue on Github.

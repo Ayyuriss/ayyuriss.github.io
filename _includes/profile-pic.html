@@ -1,3 +1,8 @@
-<div class="profile-pic">
+<!--<div class="profile-pic">
 	<img src="{{ include.img }}"/>	
+</div>-->
+
+<div class="profile-pic" style="background-image: url({{ include.img }});box-shadow: 0 0 8px 8px black inset;">
+<img src="{{ include.img }}" style="visibility: hidden;" />
 </div>
+

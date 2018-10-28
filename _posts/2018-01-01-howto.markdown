@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Openfst how-to install"
-date:   2016-03-30 19:45:31 +0530
+date:   2018-01-01
 categories: posts
 author: "Ayoub"
+tag: "HowTo"
+description : "How to Install OpenFST (Ubuntu)"
 ---
 
 Short story short, here's a short guide for essential steps to install OpenFst for Python under Ubuntu (with wrapper pywrapfst):

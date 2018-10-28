@@ -22,15 +22,15 @@ $l-page: $l-link-color;
 /**
  * Dark color palette
  */
-$d-text-color:       #e7e7e7;
-$d-link-color:       #cccccc;
-$d-background-color: #191919;
-$d-brand-color:      #2a7ae2;
+$d-text-color:       #f7f7f7;
+$d-link-color:       #009efe;
+$d-background-color: #000000;
+$d-brand-color:      #00FF00;
 $d-grey-color:       #A7A7A7;
-$d-grey-color-light: lighten($l-grey-color, 40%);
-$d-grey-color-dark:  darken($l-grey-color, 25%);
+$d-grey-color-light: lighten($l-grey-color, 80%);
+$d-grey-color-dark:  darken($l-grey-color, 5%);
 $d-code: #2f2f33;
-$d-crimson: #DC143C;
+$d-crimson: #AA143C;
 $d-nav: $d-link-color;
 $d-page: $d-link-color;
 
@@ -52,14 +52,14 @@ body.light {
     }
 
     &:hover {
-        color: darken($l-link-color, 50%) !important;
+        color: white !important;
         border-color: darken($l-link-color, 15%);
     }
 
     &.page-link{
       &:hover {
           color: $l-text-color;
-          border-color: darken($l-link-color, 50%);
+          border-color: white;
       }
     }
     &.postLink{
@@ -71,7 +71,7 @@ body.light {
       }
     }
     &.post-title-link{
-      color: darken($l-link-color, 50%) !important;
+      color: $l-link-color !important;
 
       &:visited {
           color: $l-crimson !important;
@@ -169,18 +169,18 @@ body.dark {
     }
 
     &:hover {
-        color: darken($d-link-color, 50%) !important;
+        color: white !important;
         border-color: darken($d-link-color, 15%);
     }
 
     &.page-link{
       &:hover {
-          color: $d-text-color;
+          color: $d-text-color !important;
           border-color: darken($d-link-color, 50%);
       }
     }
     &.postLink{
-      color: darken($d-link-color, 50%) !important;
+      color: $d-brand-color !important;
 
       &:visited {
           color: $d-crimson !important;
@@ -188,7 +188,7 @@ body.dark {
       }
     }
     &.post-title-link{
-      color: darken($d-link-color, 50%) !important;
+      color: $d-link-color !important;
 
       &:visited {
           color: $d-crimson !important;
@@ -246,7 +246,7 @@ body.dark {
   .site-nav .page-link {
     color: $d-text-color;
   }
-
+  
   @include media-query($on-palm) {
     background-color: $d-background-color;
     border: 1px solid $d-grey-color-light;
@@ -273,4 +273,7 @@ body.dark {
   .footer-col-wrapper {
     color: $d-grey-color;
   }
+
 }
+
+
