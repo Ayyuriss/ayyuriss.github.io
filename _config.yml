@@ -17,11 +17,14 @@ githublink: "http://github.com/aghriss"
 linkedin: "aghriss"
 gems:
 - jekyll-paginate
-
+- kramdown
+- jekyll-redirect-from
+#- jekyll-seo-tag
 plugins_dir:
 - jekyll-paginate
 - kramdown
 - jekyll-redirect-from
+#- jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
