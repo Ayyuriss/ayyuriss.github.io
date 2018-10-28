@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: ML Journey
+email: fname.lname@polytechnique.org
+description: Ayoub GHRISS
+baseurl: ""
+url: "http://aghriss.github.io" # the base hostname & protocol for your site
+gmail: "ayoub.ghrs@gmail.com"
+github:  "aghriss"
+githublink: "http://github.com/aghriss"
+linkedin: "ayoubghriss"
+gems:
+- jekyll-paginate
+
+plugins_dir:
+- jekyll-paginate
+- kramdown
+- jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+paginate: 5
+theme-dark: false #Set to true to change to dark website theme
+# Google Analytics
+google_analytics: UA-120543874-1
+
