@@ -5,21 +5,6 @@
 @charset "utf-8";
 
 /**
- * Light color palette
- */
-$l-text-color:       #111;
-$l-link-color:       blue;
-$l-background-color: #fdfdfd;
-$l-brand-color:      #2a7ae2;
-$l-grey-color:       #828282;
-$l-grey-color-light: lighten($l-grey-color, 40%);
-$l-grey-color-dark:  darken($l-grey-color, 25%);
-$l-code: #EEF;
-$l-crimson: #DC143C;
-$l-nav: $l-link-color;
-$l-page: $l-link-color;
-
-/**
  * Dark color palette
  */
 $d-text-color:       #f7f7f7;
@@ -27,134 +12,18 @@ $d-link-color:       #009efe;
 $d-background-color: #000000;
 $d-brand-color:      #00FF00;
 $d-grey-color:       #A7A7A7;
-$d-grey-color-light: lighten($l-grey-color, 80%);
-$d-grey-color-dark:  darken($l-grey-color, 5%);
+$d-grey-color-light: lighten(#828282, 80%);
+$d-grey-color-dark:  darken(#828282, 5%);
 $d-code: #2f2f33;
 $d-crimson: #AA143C;
 $d-nav: $d-link-color;
 $d-page: $d-link-color;
 
 /**
- * Light theme color definitions
- */
-body.light {
-  color: $l-text-color;
-  background-color: $l-background-color;
-
-  /**
-   * Links
-   */
-  a {
-    color: $l-link-color !important;
-
-    &:visited {
-        color: darken($l-brand-color, 50%);
-    }
-
-    &:hover {
-        color: white !important;
-        border-color: darken($l-link-color, 15%);
-    }
-
-    &.page-link{
-      &:hover {
-          color: $l-text-color;
-          border-color: white;
-      }
-    }
-    &.postLink{
-      color: darken($l-link-color, 50%) !important;
-
-      &:visited {
-          color: $l-crimson !important;
-          border-color: $l-crimson;
-      }
-    }
-    &.post-title-link{
-      color: $l-link-color !important;
-
-      &:visited {
-          color: $l-crimson !important;
-          border-color: $l-crimson;
-      }
-    }
-  }
-
-  blockquote {
-    color: $l-grey-color;
-    border-left-color: $l-grey-color-light;
-  }
-
-  /**
-   * Code formatting
-   */
-  pre,
-  code {
-    border-color: $l-grey-color-light;
-    background-color: $l-code;
-  }
-
-  /**
-   * Icons
-   */
-  .icon > svg path {
-    fill: $l-grey-color;
-  }
-
-  /**
-   * Site header
-   */
-  .site-header {
-    border-top-color: $l-grey-color-dark;
-    border-bottom-color: $l-grey-color-light;
-  }
-
-  .site-title,
-  .site-title:visited {
-    color: $l-grey-color-dark;
-  }
-
-  .site-navigation {
-    color: $l-nav;
-  }
-
-  .page-tagline {
-    color: $l-page;
-  }
-
-  .page-link {
-    color: $l-page;
-  }
-
-  .site-nav .page-link {
-    color: $l-text-color;
-  }
-
-  @include media-query($on-palm) {
-    background-color: $l-background-color;
-    border: 1px solid $l-grey-color-light;
-
-    .menu-icon > svg path {
-      fill: $l-grey-color-dark;
-    }
-  }
-
-  /**
-   * Site footer
-   */
-  .site-footer {
-    border-top-color: $l-grey-color-light;
-  }
-
-  .footer-col-wrapper {
-    color: $l-grey-color;
-  }
-}
-
-/**
  * Dark theme color definitions
  */
-body.dark {
+
+body {
   color: $d-text-color;
   background-color: $d-background-color;
 
@@ -183,7 +52,7 @@ body.dark {
       color: $d-brand-color !important;
 
       &:visited {
-          color: $d-crimson !important;
+          color: darken($d-brand-color, 30%) !important;
           border-color: $d-crimson;
       }
     }

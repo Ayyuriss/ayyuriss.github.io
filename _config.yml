@@ -29,7 +29,7 @@ plugins_dir:
 # Build settings
 markdown: kramdown
 paginate: 5
-theme-dark: true #Set to true to change to dark website theme
+#theme-dark: true #Set to true to change to dark website theme
 # Google Analytics
 google_analytics: UA-120543874-1
 
