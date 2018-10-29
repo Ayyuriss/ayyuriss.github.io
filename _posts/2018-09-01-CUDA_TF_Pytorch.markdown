@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nvidia Cuda 8 and cuDNN 6, Tensorflow Pytorch"
+title:  "Nvidia Cuda 8, cuDNN 6,Tensorflow, and Pytorch on Linux (Ubuntu)"
 date:   2018-10-28
 description:  "Fast explanation how to install Cuda and cuDNN for TF and Pytorch on Ubuntu (Linux generally)"
 categories: posts
