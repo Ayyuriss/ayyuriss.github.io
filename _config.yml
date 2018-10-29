@@ -31,5 +31,4 @@ markdown: kramdown
 paginate: 5
 #theme-dark: true #Set to true to change to dark website theme
 # Google Analytics
-google_analytics: UA-120543874-1
-
+google_analytics: UA-128349797-1
