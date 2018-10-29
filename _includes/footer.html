@@ -1,51 +1,40 @@
 <footer class="site-footer">
-
 	<div class="wrapper">
 
 		<h2 class="footer-heading small-site-title">Contact</h2>
 
 		<div class="footer-col-wrapper">
-			
+		
 			<div class="footer-col footer-col-1 footer-content">
 				{% if site.gmail %}
-				{% capture url %}
-					mailto:{{ site.gmail }}
-				{% endcapture %}
-				{% include icon.html label='Gmail' link=url icon='gmail.svg' %}
+					{% capture url %} mailto:{{ site.gmail }} {% endcapture %}
+					{% include icon.html label='Gmail' link=url icon='gmail.svg' %}
 				{% endif %}
 				<br>
 				{% if site.linkedin %}
-				{% capture url %}
-					https://www.linkedin.com/in/{{ site.linkedin }}
-				{% endcapture %}
-				{% include icon.html label=' LinkedIn' link=url icon='linkedin.svg' %}
+					{% capture url %} https://www.linkedin.com/in/{{ site.linkedin }} {% endcapture %}
+					{% include icon.html label=' LinkedIn' link=url icon='linkedin.svg' %}
 				{% endif %}
-
 				<br>
 				{% if site.github %}
-				{% capture url %}
-					https://github.com/{{ site.github }}
-				{% endcapture %}
-				{% include icon.html label='GitHub' link=url icon='github.svg' %}
+					{% capture url %} https://github.com/{{ site.github }} {% endcapture %}
+					{% include icon.html label='GitHub' link=url icon='github.svg' %}
 				{% endif %}
-
-
 			</div>
 			<div class="footer-col footer-col-4 footer-content">
-			<script>
-			  (function() {
-			    var cx = '003219542267673867386:jxaqnbb1_fc';
-			    var gcse = document.createElement('script');
-			    gcse.type = 'text/javascript';
-			    gcse.async = true;
-			    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-			    var s = document.getElementsByTagName('script')[0];
-			    s.parentNode.insertBefore(gcse, s);
-			  })();
-			</script>
-			<gcse:search></gcse:search>
+				<script>
+				  (function() {
+					 var cx = '003219542267673867386:jxaqnbb1_fc';
+					 var gcse = document.createElement('script');
+					 gcse.type = 'text/javascript';
+					 gcse.async = true;
+					 gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+					 var s = document.getElementsByTagName('script')[0];
+					 s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+				<gcse:search></gcse:search>
 			</div>
 		</div>
 	</div>
-
 </footer>
