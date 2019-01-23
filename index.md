@@ -13,9 +13,8 @@ include profile-pic.html
 img="/files/photo.jpg"
 %}
 <br>
-I'm currently a Master student in Machine Learning in ENS Cachan. I've graduated from Ecole Polytechnique with a degree in Computational Mathematics with a minor in Machine Learning.
-My interests mainly lie within applied artificial intelligence and machine learning; at the moment, I'm working on **deep and hierarchical reinforcement learning** as an intern in RIKEN AIP Labs, Tokyo.
-<br>
+I'm currently a PhD student in Machine Learning in Colorado Boulder University. I've graduated from Ecole Polytechnique with a degree in Computational Mathematics with a minor in Machine Learning and hold a master in "Mathematics, Computer Vision, and Learning" from ENS Paris-Saclay (aka ENS Cachan).<br><br>
+My interests mainly lie within applied artificial intelligence and machine learning; I worked on **deep and hierarchical reinforcement learning** as an intern in RIKEN AIP Labs, Tokyo. Currently, I'm exploring more ML techniques, especially Unsupervised Learning methods as part of my PhD, supervied by [Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/).
 <br>
 
 ## CV
