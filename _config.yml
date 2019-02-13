@@ -13,7 +13,7 @@ baseurl: ""
 url: "http://aghriss.github.io" # the base hostname & protocol for your site
 gmail: "ayoub.ghrs@gmail.com"
 github:  "aghriss"
-#githublink: "http://github.com/aghriss"
+githublink: "http://github.com/aghriss"
 linkedin: "aghriss"
 gems:
 - jekyll-paginate
